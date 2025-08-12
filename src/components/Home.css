@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.home{
+     /* font-family: "Edu NSW ACT Hand Pre", cursive; */
+    font-family: sans-serif;
+    margin-top: -10px;
+    color:beige;
+}
+
+.para{
+    height: 54vh;
+    width: 100%;
+    cursor: pointer;
+}
+.para:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  background-color:#a18a6a;
+}
+
+.img-cn{
+    border-radius: 60px;
+}
+.img{
+    float: right;
+    margin: 5px;
+}
+
+.img1{
+    float: left;
+    margin: 5px;
+}
+.para1{
+    /* margin-top: 100px; */
+    clear: right;
+    padding: 30px;
+    letter-spacing: 1.5px;
+}
+
+.para2{
+    margin-top: 10px;
+    clear: right;
+    letter-spacing: 1.5px;
+    padding: 38px;
+}
+
+.flex{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.para3{
+    letter-spacing: 1.5px;
+    margin-top: 10px;  
+    padding: 50px;
+    clear: left;
+}
+
+.overlay{
+    margin: 0px;
+}
+
+.hero-section {
+  display: flex;   
+  align-items: center;         
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 40px;
+  background-color: #c9ad85;
+  flex-wrap: row;           
+  gap: 30px;                  
+}
+
+.hero-text {
+  flex: 1;
+  font-size: 1rem;
+  color: white;
+}
+
+.hero-image img {
+  width: 400px;
+  /* height: auto; */
+  /* object-fit: contain; */
+}
+
+/* Change background color of the caption area */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Change heading style */
+.carousel-caption h5 {
+  font-family: 'Poppins', sans-serif; /* custom font */
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffcc00; /* yellow */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Change paragraph style */
+.carousel-caption p {
+  font-family: 'Roboto', sans-serif; /* different font */
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-style: italic;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
