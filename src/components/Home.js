@@ -9,61 +9,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 export default function Home() {
   return (
     <div>
- <div id="carouselExampleCaptions" className="carousel slide">
-      <div className="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
-      </div>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src="https://source.unsplash.com/1600x600/?burger" className="d-block w-100" alt="Burger"/>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Fresh & Juicy Burgers</h5>
-            <p>Taste the best burgers in town.</p>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <img src="https://source.unsplash.com/1600x600/?fries" className="d-block w-100" alt="Fries"/>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Perfectly Crispy Fries</h5>
-            <p>Golden and delicious.</p>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <img src="https://source.unsplash.com/1600x600/?milkshake" className="d-block w-100" alt="Milkshake"/>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Refreshing Milkshakes</h5>
-            <p>Cool down with our creamy shakes.</p>
-          </div>
-        </div>
-      </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-
-      <div className="home overlay">
-        <div className="para hero-section">
-          <div className="para1 hero-text">
-            <strong> Welcome to Burger's Point </strong>Where Every Bite Tells a
-            Story At Burger's Point, we pride ourselves on serving premium
-            quality food that delights every taste bud. Our burgers are crafted
-            using the freshest ingredients — farm-fresh vegetables, juicy,
-            perfectly seasoned patties, and soft, toasted buns. Every order is
-            prepared fresh to ensure maximum flavor and satisfaction. Whether
-            you're craving a classic cheeseburger
-          </div>
-          <div className="img img-cn hero-image">
-            <img src={bur} alt="img-burger" height="300vh" width="400vw" />
-          </div>
-        </div>
-
         <div className="para flex">
           <div className="img1 img-cn">
             <img
@@ -104,3 +49,4 @@ export default function Home() {
     </div>
   );
 }
+
