@@ -9,6 +9,22 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 export default function Home() {
   return (
     <div>
+          <div className="home overlay">
+        <div className="para hero-section">
+          <div className="para1 hero-text">
+            <strong> Welcome to Burger's Point </strong>Where Every Bite Tells a
+            Story At Burger's Point, we pride ourselves on serving premium
+            quality food that delights every taste bud. Our burgers are crafted
+            using the freshest ingredients — farm-fresh vegetables, juicy,
+            perfectly seasoned patties, and soft, toasted buns. Every order is
+            prepared fresh to ensure maximum flavor and satisfaction. Whether
+            you're craving a classic cheeseburger
+          </div>
+          <div className="img img-cn hero-image">
+            <img src={bur} alt="img-burger" height="300vh" width="400vw" />
+          </div>
+        </div>
+              
         <div className="para flex">
           <div className="img1 img-cn">
             <img
@@ -49,4 +65,5 @@ export default function Home() {
     </div>
   );
 }
+
 
